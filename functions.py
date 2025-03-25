@@ -18,9 +18,8 @@ def write_todos(todos_arg , filepath = FILEPATH):
 
 
 
-""" __name__ is a abstract word for python that holds the value of the file being executed like if i run the program directly now!! it will show __main__ as it is the main file for this function but if i run the program from the main.py by importing  then the value of name will be filename. """
+""" __name__ is a abstract word for python that holds the value of the file being executed like if i run the program directly now!! it will show __main__ as it is the main file for this function but if i run the program from the cli.py by importing  then the value of name will be filename. """
 
-print(__name__)
 if __name__ == '__main__':
     print("Hello World")
     print(get_todos())
